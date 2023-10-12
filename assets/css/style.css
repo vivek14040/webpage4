@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/* header section Start */
+a{  
+	color: #fff;
+	text-decoration: none;
+	font-weight: 600;
+}
+header {
+	background-color: rgb(5, 5, 20);
+		width: 100%;
+		height:60px;
+		padding: 0px 125px;
+		display: flex;
+		color: #fff;
+		align-items: center;
+		justify-content: space-between;
+		
+	}
+	
+	
+header ul li{
+	margin-right: 15px;
+	display: inline-block;
+}
+header ul li a.active{
+	color: #CD375D;
+}
+header ul li a.act{
+	color: rgb(196, 196, 95);
+}
+#m1{
+	width: 100px;
+    height: 35px;
+}
+#m2{
+	width:20px;
+    height: 20px;
+}
+/* header section end */
+/* banner section start  */
+ .banner{
+
+	width: 100%;
+	height: 590px;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url( ../img/banner.jpeg);
+	background-size: cover;
+	position: relative;
+	color: #fff;
+	display: flex;
+ }
+ .banner h1{
+	font-size: 40px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	font-weight: 100px;
+ }
+ .banner h2{
+	position: absolute;
+	top: 260px;
+	font-size: 30px;
+	left: 250px;
+
+ }
+ .banner form button{
+	width: 100px;
+	height: 30px;
+	border: none;
+	background: #291e1e;
+	color: #fff;
+	font-weight: 500;
+ }
+ .banner form button.active{
+	
+	background-color: red;
+ }
+ .banner form{
+	width: 90%;
+	height: 100px;
+	padding-left: 8px;
+	position: absolute;
+	bottom: 5px;
+	left: 50px;
+	background-color: #5C327A;
+
+ }
+ .banner form label{
+	display: none;
+ }
+ .banner form .searchForm input{
+	width: 150px;
+	height: 35px;
+	
+ }
+ .banner form.searchForm{
+	margin-top: 20px;
+ }
+/* banner section end */
+
