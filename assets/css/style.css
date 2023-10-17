@@ -85,6 +85,7 @@ header ul li a.act{
 	position: absolute;
 	bottom: 5px;
 	left: 50px;
+	
 	background-color: #5C327A;
 
  }
@@ -94,10 +95,115 @@ header ul li a.act{
  .banner form .searchForm input{
 	width: 150px;
 	height: 35px;
-	
+	margin-left: 20px;
  }
  .banner form.searchForm{
 	margin-top: 20px;
  }
-/* banner section end */
+ #select-passenger{
+	width: 150px;
+	height: 35px;
+	margin-left: 20px;
+	
+ }
+ div button.search{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;	
+	float: right;
+	display: inline;
+	
+ }
+ .trip{
+	width: 150px;
+	height: 35px;
+	margin-left: 40px;
+	position: fixed;
+ }
+ /* banner section end */
+ /* fun section start */
+
+ .fun{
+	width: 100%;
+	height: 450;
+	padding: 50px 125px;
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mount.webp");
+	background-size: 100% 100%;
+ }
+.fun h2{
+	color: #fff;
+	justify-content: center;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.fun ul{
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+}
+.fun ul li{
+	list-style: none;
+	width: 100px;
+	height: 100px;
+	background-color: rgba(0,0,0,0.7);
+	font-size: 40px;
+	padding: 30px;
+
+}
+/* /fun section close */
+
+/* subscribe section start */
+.subs{
+	width: 100%;
+	height: 450px;
+	background: url(../img/flight1.webp);
+}
+.subs h2 {
+	 padding-top: 150px;
+	 padding-left: 50%;
+	 text-align: center;
+}
+.subs p{
+	padding-top: 20px;
+	 padding-left: 50%;
+}
+input {
+	float: right;
+	
+	padding-right: 80px;
+}
+button{
+	float: right;
+	margin-right: 320px;
+}
+/* /subscribe section close */
+
+/* destination section start */
+.destination{
+	width: 100%;
+	height: auto;
+	background-color: #2c133e;
+	text-align: center;
+}
+.destination h2{
+	padding-top: 20px;
+	color: #fff;
+}
+.destination ul{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20%;
+	grid-template-rows: 400px 400px;
+	grid-gap: 8px;
+	margin-left: 200px;
+	padding-top: 20px;
+	
+	
+}
+.destination ul li img{
+	border: 2px solid #fff;
+	border-radius: 5px;
+	list-style: none;
+	color: white;
+}
+/* destination section close */
 
