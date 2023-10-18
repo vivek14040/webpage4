@@ -205,5 +205,43 @@ button{
 	list-style: none;
 	color: white;
 }
-/* destination section close */
+/* destination section end */
+
+/* estimate section start */
+.estimate{
+	background-color: #a461d6;
+	width: 100%;
+	height: auto;
+	color: #fff;
+		
+}
+.estimate h2{
+	 padding-top: 20px;
+	 margin-left: 125px;
+}
+.estimate h3{
+
+	margin-left: 125px;
+}
+.estimate form{
+	display: flex;
+   margin-left: 125px;
+   margin-top: 30px;	
+}
+#dt,#mail,#calculate,#people,#purpose{
+	padding: 3px;
+	margin-left: 10px;
+	height: 25px;
+}
+#calculate{
+	background-color: #CD375D;
+	
+}
+.estimate  form img{
+           float: right;
+		   margin-left: 250px;
+		   margin-top: 0px;	
+		   margin-bottom: 30px;
+}
+/* estimate section close */
 
