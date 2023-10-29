@@ -245,3 +245,63 @@ button{
 }
 /* estimate section close */
 
+/* BLOG SECTION START */
+  .blog{
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	padding: 50px 125px;
+  }
+.blog h2{
+	color: #000;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.blog h2+p{ 
+	text-align: center;
+    padding: 0px 200px;
+}
+.blog-content{
+	margin: 10px auto;
+	display: flex;
+}
+.blog-content{
+	padding: 10px;
+}.blog-content div div{
+	display: inline-block;
+}
+.blog-content div img{
+	border-bottom: 5px red solid;
+}
+
+/* /BLOG SECTION END */
+/* Footer SECTION START */
+footer{
+	width: 100%;
+	height: auto;
+	padding: 50px 125px;
+   background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/desert.jpg);
+   display: flex;
+   justify-content: space-between;
+}
+footer h3{
+	color: #918E97;
+	font-size: 22px;
+	font-weight: 400px;
+	margin-bottom: 10px;
+	
+}
+footer ul li{
+	list-style: none;
+}
+footer ul li a{
+	color: #918E97;
+}
+footer ul li a span{
+	color: #fff;
+	font-weight: 500;
+
+}
+
+/* /Footer SECTION END */
+
